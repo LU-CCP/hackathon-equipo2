@@ -4,7 +4,7 @@ import { push } from 'connected-react-router';
 import { Link } from 'react-router-dom';
 import { Container, Button } from '@material-ui/core';
 
-import { ABOUT, COUNTER } from '../../routes/paths';
+import { ABOUT, COUNTER, GAME } from '../../routes/paths';
 
 import useStyles from './styles';
 
@@ -24,9 +24,9 @@ const Home = () => {
           <Button
             variant='contained'
             color='primary'
-            // onClick={handleNavigate(GAME)}
+            onClick={handleNavigate(GAME)}
           >
-            Ir al juego
+            Comenzar partido
           </Button>
         </div>
       </div>
