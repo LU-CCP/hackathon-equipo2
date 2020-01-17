@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ImageBackground, Text } from 'react-native';
+import { Image, ImageBackground, Text } from 'react-native';
 
 import {
   Puntos as PuntosComponent,
   Transmision as TransmisionComponent
 } from '../../components';
-import { WELCOME_MSG, HERMES_ENGINE } from '../../config/messages';
-import reactImage from '../../resources/images/react.png';
+import { HERMES_ENGINE } from '../../config/messages';
+import wallpaper from '../../resources/images/wallpaper.png';
+import Logo from '../../resources/images/Logo.png';
 import Main from '../Main';
 
 import styles from './styles';
@@ -15,14 +16,18 @@ import styles from './styles';
 const Example = ({ navigation }) => (
   <Main navigation={navigation}>
     <ImageBackground
-      source={reactImage}
+      source={wallpaper}
       style={styles.background}
       imageStyle={styles.logo}
     >
       {!!global.HermesInternal && (
         <Text style={styles.engine}>{HERMES_ENGINE}</Text>
       )}
-      <Text style={styles.title}>{WELCOME_MSG}</Text>
+      <Image
+        // eslint-disable-next-line react-native/no-inline-styles
+        style={{ width: 370, height: 250 }}
+        source={Logo}
+      />
       <PuntosComponent />
       <TransmisionComponent />
     </ImageBackground>
