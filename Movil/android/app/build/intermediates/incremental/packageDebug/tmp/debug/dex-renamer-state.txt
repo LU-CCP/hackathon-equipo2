@@ -1,0 +1,4 @@
+#Wed Jan 15 18:44:34 CLST 2020
+base.0=C\:\\Users\\Usuario\\Documents\\GitHub\\hackathon-equipo2\\Movil\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -3,4 +3,6 @@ export const LEARN_REACT_NATIVE_MSG = 'Learn React Native';
 export const HERMES_ENGINE = 'Hermes Engine';
 export const FETCH_TEXT_MSG = 'Fetch Text';
 export const FETCHING_MSG = 'Fetching...';
+export const LIVE_MSG = 'Comenzar partido';
+export const POINTS_MSG = 'Puntajes en tiempo real';
 export const ERROR_MSG = 'Oops! something went wrong';
