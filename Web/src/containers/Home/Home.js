@@ -22,8 +22,8 @@ const Home = () => {
       className={classes.container}
       maxWidth={false}
     >
-      <Grid item xs={6} alignament='center'>
-        <Paper className={classes.paper2}>
+      <Grid item xs={4} alignament='center'>
+        <Paper className={classes.paper}>
           <Typography className={classes.control} variant='h4'>
             {' '}
             Home Juego{' '}
@@ -36,7 +36,7 @@ const Home = () => {
                 color='primary'
                 onClick={handleNavigate(GAME)}
               >
-                Comenzar partido
+                Comenzar transmision
               </Button>
             </div>
           </div>

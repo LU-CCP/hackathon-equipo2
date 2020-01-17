@@ -7,7 +7,8 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color: '#FFF'
+    color: '#FFF',
+    textAlign: 'center'
   },
   paper: {
     padding: theme.spacing(2),
